@@ -9,9 +9,9 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 public class Wrapper {
 
-
     private Weather[] weather;
     private Object main;
+    private Object wind;
     private String name;
 
 }

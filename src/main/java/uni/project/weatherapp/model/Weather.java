@@ -9,6 +9,8 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 public class Weather {
 
+    private Object main;
     private Object description;
+    private Object icon;
 
 }

@@ -11,6 +11,7 @@ public class WeatherResponseDto {
 
     private Object weather;
     private Object weatherDetails;
+    private Object wind;
     private String weatherLocation;
 
 }

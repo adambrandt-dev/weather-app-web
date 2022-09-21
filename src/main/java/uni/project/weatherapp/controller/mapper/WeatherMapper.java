@@ -7,6 +7,6 @@ public class WeatherMapper {
 
     public static WeatherResponseDto mapWeatherToWeatherResponseDto(Wrapper wrapper){
 
-        return new WeatherResponseDto(wrapper.getWeather(), wrapper.getMain(), wrapper.getName());
+        return new WeatherResponseDto(wrapper.getWeather(), wrapper.getMain(), wrapper.getWind(), wrapper.getName());
     }
 }
