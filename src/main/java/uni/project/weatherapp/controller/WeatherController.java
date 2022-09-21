@@ -19,7 +19,7 @@ public class WeatherController {
     WeatherService weatherService = new WeatherService();
 
     @GetMapping("/location")
-    public ResponseEntity<WeatherResponseDto> getWeatherByLocation(@RequestParam String locationName){
+    public ResponseEntity<WeatherResponseDto> getWeatherByLocation(@RequestParam String locationName) {
         return ResponseEntity.ok(mapWeatherToWeatherResponseDto(weatherService.getWeatherByLocation(locationName)));
     }
 
