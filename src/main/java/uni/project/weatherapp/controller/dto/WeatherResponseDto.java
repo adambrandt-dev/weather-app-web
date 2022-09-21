@@ -10,8 +10,10 @@ import lombok.NoArgsConstructor;
 public class WeatherResponseDto {
 
     private Object weather;
-    private Object weatherDetails;
+    private Object temperature;
+    private Object pressure;
+    private Object humidity;
     private Object wind;
-    private String weatherLocation;
+    private String location;
 
 }
