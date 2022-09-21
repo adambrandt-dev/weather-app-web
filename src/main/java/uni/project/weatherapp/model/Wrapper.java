@@ -11,7 +11,7 @@ public class Wrapper {
 
 
     private Weather[] weather;
-    private WeatherMain[] main;
+    private Object main;
     private String name;
 
 }

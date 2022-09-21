@@ -9,7 +9,7 @@ import org.springframework.stereotype.Component;
 public class WeatherClient {
 
     String WEATHER_API = "https://api.openweathermap.org/data/2.5/weather";
-    String API_KEY = "a4820f1f05c953c5ee600d7b59d17ed3";
+    String API_KEY = "";
 
     public String getWeatherApi(String locationKey) {
         return new StringBuilder(WEATHER_API)
